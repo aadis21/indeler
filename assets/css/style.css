@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:    Hotline
+Project:    Indeler
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -129,7 +129,7 @@ p {
 .navbar .navbar-icon a:hover {
     color: var(--e-global-color-accent);
 }
-.navbar .hotline-dropdown {
+.navbar .Indeler-dropdown {
     padding: 20px 40px;
     border-radius: 10px;
     margin: 0;
@@ -139,14 +139,14 @@ p {
     border-top: 4px solid var(--e-global-color-accent); 
     width: 200px;       
 }
-.navbar .hotline-dropdown li {
+.navbar .Indeler-dropdown li {
     padding: 0;
     display: inline-block;
 }
-.navbar .hotline-dropdown li.active .hotline-menu {
+.navbar .Indeler-dropdown li.active .Indeler-menu {
     color: var(--e-global-color-accent) !important;
 }
-.navbar .hotline-dropdown .hotline-menu {
+.navbar .Indeler-dropdown .Indeler-menu {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
@@ -157,19 +157,19 @@ p {
     color: var(--e-global-color-primary) !important;
     white-space: inherit;
 }
-.navbar .hotline-dropdown .hotline-menu:hover {
+.navbar .Indeler-dropdown .Indeler-menu:hover {
     background: transparent;
     color: var(--e-global-color-accent) !important;
 }
-.navbar .hotline-dropdown li:hover a:after {
+.navbar .Indeler-dropdown li:hover a:after {
     width: 100%;
     left: 0;
     right: auto;
 }
-.navbar .hotline-dropdown li:hover a:before {
+.navbar .Indeler-dropdown li:hover a:before {
     color: var(--e-global-color-accent);
 }
-.navbar .hotline-dropdown li a:after {
+.navbar .Indeler-dropdown li a:after {
     content: "";
     width: 0;
     height: 1px;
@@ -182,12 +182,12 @@ p {
     background: var(--e-global-color-accent);
     bottom: 5px;
 }
-.navbar .hotline-dropdown li:hover a:after {
+.navbar .Indeler-dropdown li:hover a:after {
     width: 100%;
     left: 0;
     right: auto;
 }
-.navbar .hotline-dropdown li a:before {
+.navbar .Indeler-dropdown li a:before {
     content: "\f111";
     line-height: 1;
     font-weight: 700;
@@ -198,7 +198,7 @@ p {
     font-size: 5px;
     font-family: "Font Awesome 5 Pro";
 }
-.navbar .hotline-dropdown .hotline-menu:hover {
+.navbar .Indeler-dropdown .Indeler-menu:hover {
     background: transparent;
     color: var(--e-global-color-accent) !important;
 }

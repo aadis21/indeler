@@ -145,19 +145,19 @@ p { font-size: 18px; line-height: 24px; }
 .navbar-toggler { margin-left: auto; border: none !important; padding: 0; width: 30px; height: 22px; }
 .navbar-toggler:focus { outline: none; }
 .navbar-collapse { background: var(--e-global-color-white); position: absolute; right: 0px; width: 30%; top: 75px; z-index: 16; padding: 0;}
-.navbar .hotline-dropdown li { display: block; }
-.navbar .hotline-dropdown li a:before { display: none; }
-.navbar .hotline-dropdown li a:after { display: none; }
+.navbar .Indeler-dropdown li { display: block; }
+.navbar .Indeler-dropdown li a:before { display: none; }
+.navbar .Indeler-dropdown li a:after { display: none; }
 .banner-section { padding: 110px 0px 500px 0px; background-image: url(../images/banner-tablet.jpg);}
 .navbar li { padding: 0px; }
 .navbar li a { font-size: 16px; line-height: 18px; padding: 12px 30px!important; color: var(--global--color-primary) !important;}
 .navbar .navbar-icon a { color: var(--global--color-white); font-size: 22px; padding: 7px 30px 30px 30px; display: block; line-height: 22px; }
-.navbar .hotline-dropdown { padding: 0; background: var(--global--color-very-dark-gray); border: none; box-shadow: none; width: auto;}
-.navbar .hotline-dropdown .hotline-menu { font-size: 15px; line-height: 20px; padding: 6px 40px !important; font-weight: 400; }
-.navbar .hotline-dropdown ul { padding: 0 !important; }
+.navbar .Indeler-dropdown { padding: 0; background: var(--global--color-very-dark-gray); border: none; box-shadow: none; width: auto;}
+.navbar .Indeler-dropdown .Indeler-menu { font-size: 15px; line-height: 20px; padding: 6px 40px !important; font-weight: 400; }
+.navbar .Indeler-dropdown ul { padding: 0 !important; }
 .navbar-nav li.active > a { color: var(--global--color-moderate-blue) !important; }
 .navbar li a:hover { color: var(--global--color-moderate-blue) !important; }
-.navbar .hotline-dropdown .hotline-menu:hover { color: var(--global--color-moderate-blue) !important; }
+.navbar .Indeler-dropdown .Indeler-menu:hover { color: var(--global--color-moderate-blue) !important; }
 .navbar .navbar-icon a:hover { color: var(--global--color-moderate-blue); }
 .login-outer-div ul li { padding: 0px; }
 .login-outer-div ul li .sign-up { font-size: 16px; background: transparent; font-weight: 400; }
